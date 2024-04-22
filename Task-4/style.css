@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+body {
+    grid-gap:1%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 1%;
+    row-gap: 3%;
+}
+
+.b1 {
+    background-color: red;
+}
+
+.b2 {
+    background-color: green;
+}
+
+.b4 {
+    background-color: #8b6c5c;
+}
+
+.b3 {
+    background-color: blue;
+}
+
+div {
+    color: white;
+    height:30vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+@media (max-width:576px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+}
