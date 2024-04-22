@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    padding: 0.5%;
+}
+
+.head {
+    background-color: #d3d3d3;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main, .foot {
+    padding: 1% 0 1% 0;
+}
+
+@media (max-width: 600px) {
+    .head {
+        background-color: blue;
+    }
+}
